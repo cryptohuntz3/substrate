@@ -25,8 +25,8 @@ rustflags = [
   "-Aclippy::bind_instead_of_map",       # styalistic
   "-Aclippy::erasing_op",                # E.g. 0 * DOLLARS
   "-Aclippy::eq_op",                     # In tests we test equality.
-  "-Aclippy::while_immutable_condition", # false positives
-  "-Aclippy::needless_option_as_deref",  # false positives
+  "-A clippy::while_immutable_condition", # false positives
+  "-A clippy::needless_option_as_deref",  # false positives
   "-Aclippy::derivable_impls",           # false positives
   "-Aclippy::stable_sort_primitive",     # prefer stable sort
   "-Aclippy::extra-unused-type-parameters", # stylistic
